@@ -1,0 +1,124 @@
+@font-face {
+  font-family: standard;
+  src: url("typo/std.ttf");
+}
+
+@font-face {
+  font-family: titre;
+  src: url("typo/titre.ttf");
+}
+
+body {
+  font-family: "std.ttf";
+}
+
+#haut 
+{
+  font-family: "titre";
+}
+
+h1 
+{
+  font-family: "titre";
+	text-align: center;
+	font-size : 50px;
+	color : #d26a00;
+}
+
+
+p
+{
+	margin-top: 20px;
+	color : #c2b8a6;
+	font-size : 15px;
+	margin-bottom: -10px;
+	position:relative;
+}
+
+.select
+{
+	background-color: white;
+	border-color : #c2b8a6;
+	border-width : 1px;
+	box-shadow: -2px -2px 1px #e2e3e3 inset;
+	border-radius: 5px;
+	padding : 10px;
+	font-size: 17px;
+	text-decoration : none;
+	width : 200px;
+	height:45px;
+	color : #c2b8a6;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+#select 
+{
+	width : 200px;
+	margin:auto;
+	height: 35px;
+}
+
+#p 
+{
+	color : #84807c;
+	text-align: center;
+	font-size: 20px;
+}
+
+.p 
+{
+	color : #84807c;
+	text-align: left;
+	width:800px;
+	margin : 40 auto 10 auto;
+	font-size: 20px;
+	padding-left:20px;
+}
+
+.casse
+{
+	font-size: 15px;
+}
+
+#tab 
+{
+	margin: auto;
+	width :800px;
+	text-align:center;
+	background-color:white;
+	opacity:0.4;
+}
+
+.up
+{
+	width:800px;
+	color : #d26a00;
+	padding : 10px;
+}
+
+#main
+{
+	height : 110%;
+	width: 100%;
+	border:none;
+}
+
+#main1
+{
+	padding : 10px;
+	margin: auto;
+	width : 100%;
+	height : 110%;
+	border:none;
+
+}
+
+#main2
+{
+	padding : 10px;
+	margin:auto;
+	width : 100%;
+	height : 110%;
+	border:none;
+}

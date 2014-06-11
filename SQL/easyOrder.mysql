@@ -1,0 +1,50 @@
+-- mysql
+
+create table Clients
+(
+ refClient int auto_increment Primary key,
+ nomClient text not null ,
+ categ text not null ,
+ passClient text not null ,
+ adresse text,
+ codePost text,
+ ville text,
+ pays text,
+ telClient text,
+ mailClient text,
+ tvaIntracom text,
+ correspondant text,
+ remise integer not null ,
+ seuil integer,
+ valide bool
+ ) engine InnoDB;
+
+create table Produits
+(
+ clefProd int auto_increment Primary key,
+ refProd text not null ,
+ nature text not null ,
+ specProd text not null ,
+ pu integer not null ,
+ unite text not null ,
+ valide bool
+ ) engine InnoDB;
+
+create table Commandes
+(
+ refCom int auto_increment Primary key,
+ refClient integer references Clients,
+ dateCom date not null,
+ valide boolean,
+ note text
+ ) engine InnoDB;
+
+create table Lignesco
+(
+ refLico int auto_increment Primary key,
+ refCom integer references Commandes,
+ clefProd text references Produits,
+ quantite integer not null ,
+ puRemise integer not null 
+ ) engine InnoDB;
+

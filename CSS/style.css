@@ -1,0 +1,169 @@
+@font-face {
+  font-family: standard;
+  src: url("typo/std.ttf");
+}
+
+@font-face {
+  font-family: titre;
+  src: url("typo/titre.ttf");
+}
+
+body
+{
+	margin: 0 0 0 0;
+  font-family: "standard";
+}
+
+iframe 
+{
+  border: none;
+}
+
+ #logo
+{
+	margin-left: 200px;
+	width: 187.59px;
+	height: 173.16px;
+	margin-top: 0px;
+	position: relative;
+	
+}
+
+#haut button
+{
+  font-family: "titre";
+}
+
+#header
+{
+	opacity: 0.5;
+	background-color: white;
+	height: 130px;
+	position: absolute;
+	width: 100%;
+	font-family: "titre";
+}
+
+h1
+{
+	text-align: center;
+	color: #d26a00;
+	font-size: 50px;
+	font-family: "titre";
+}
+
+.largeblock
+{
+	opacity:0.67;
+	background-color: white;
+	width: 970px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 100px;
+}
+
+.largeblock table 
+{
+  width: 100%;
+}
+
+.largeblock input
+{
+  width: 96%;
+}
+
+.lb 
+{
+	width: 1270px;
+}
+
+.iform
+{
+	width: 350px;
+	margin-right:50px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height:35px;
+	border-color: #c2b8a6;
+	box-shadow: -2px 2px 1px #e2e3e3 inset;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-width: 1px;
+}
+
+.bigbutton
+{
+	
+	background-color: white;
+	font-size :20px;
+	height: 45px;
+	color: #f4a453;
+	padding: 10px 20px;
+	border-color:  #c2b8a6;
+	box-shadow: -2px -2px 1px #e2e3e3 inset;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.menu
+{
+  font-family: "titre";
+	position: absolute;
+	margin-top: -120px;
+	margin-left: 450px;
+
+}
+
+.tri 
+{
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.connectblock 
+{
+  background-color: white;
+  opacity: 0.67;
+  width: 400px;
+  margin: 40 auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text 
+{
+  text-decoration: none;
+  color: #C2B8A6;
+}
+
+.smallbutton 
+{
+  background-color: white;
+  border-color: #C2B8A6;
+  border-width: 1px;
+  box-shadow: -2px -2px 1px #E2E3E3 inset;
+  border-radius: 5px;
+  padding: 6px;
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+.menu button
+{
+	font-size: 30px;
+	margin-left: 40px;
+	background-color: transparent;
+	border :none;
+}
+
+.inscription input
+{
+  width: 350px;
+}
